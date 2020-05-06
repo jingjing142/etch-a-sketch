@@ -43,6 +43,9 @@ reset.addEventListener('click', function() {
         drawInRainbow();
     } else if(black.classList.contains('active')) {
         drawInBlack();
+    } else {
+        random.classList.add('active');
+        drawInRandom();
     }
 }); 
 
